@@ -37,27 +37,27 @@ const AboutUs = () => {
             />
           </NavLink>
           <nav className='hidden md:flex md:ml-10 md:pr-4 md:space-x-8'>
-            <NavLink className='text-base font-medium text-gray-500 hover:text-gray-900' to="/">Home</NavLink>
-            <NavLink className='text-base font-medium text-gray-500 hover:text-gray-900' to="/aboutus">About Us</NavLink>
+            <NavLink className='text-base font-medium text-gray-500 hover:text-gray-900' to="/">Beranda</NavLink>
+            <NavLink className='text-base font-medium text-gray-500 hover:text-gray-900' to="/aboutus">Tentang Kami</NavLink>
           </nav>
         </div>
         <div className='flex items-center justify-center space-x-4'>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button className="bg-green-500">
-                Login
+                Masuk
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-48" align="end" forceMount>
               <DropdownMenuGroup>
                 <DropdownMenuItem>
-                  <NavLink to="/mahasiswa/login">Login Mahasiswa</NavLink>
+                  <NavLink to="/mahasiswa/login">Masuk Mahasiswa</NavLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <NavLink to="/dosen/login">Login Dosen</NavLink>
+                  <NavLink to="/dosen/login">Masuk Dosen</NavLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <NavLink to="/staf/login">Login Staff</NavLink>
+                  <NavLink to="/staf/login">Masuk Staff</NavLink>
                 </DropdownMenuItem>
               </DropdownMenuGroup>
             </DropdownMenuContent>
