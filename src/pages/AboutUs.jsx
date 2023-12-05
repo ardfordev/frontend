@@ -81,7 +81,7 @@ const AboutUs = () => {
                   <p className="text-gray-500">{member.role}</p>
                 </div>
                 <div className="px-6 py-4">
-                  <Button className="w-full bg-green-500 text-white rounded-lg">Contact</Button>
+                  <Button className="w-full bg-green-500 text-white rounded-lg">Kontak</Button>
                 </div>
               </div>
             ))
