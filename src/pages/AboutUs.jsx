@@ -51,13 +51,13 @@ const AboutUs = () => {
             <DropdownMenuContent className="w-48" align="end" forceMount>
               <DropdownMenuGroup>
                 <DropdownMenuItem>
-                  <NavLink to="/mahasiswa/login">Masuk Mahasiswa</NavLink>
+                  <NavLink to="/mahasiswa/login">Mahasiswa</NavLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <NavLink to="/dosen/login">Masuk Dosen</NavLink>
+                  <NavLink to="/dosen/login">Dosen</NavLink>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <NavLink to="/staf/login">Masuk Staff</NavLink>
+                  <NavLink to="/staf/login">Staff</NavLink>
                 </DropdownMenuItem>
               </DropdownMenuGroup>
             </DropdownMenuContent>
