@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "@/pages/Home"
+import AboutUs from "./pages/AboutUs"
 import ProfileMahasiswa from "./pages/mahasiswa/ProfileMahasiswa"
 import InformasiPerkuliahanMahasiswa from "./pages/mahasiswa/InformasiPerkuliahanMahasiswa"
 import RegistrasiKRSMahasiswa from "./pages/mahasiswa/RegistrasiKRSMahasiswa"
@@ -19,6 +20,7 @@ const App = () => {
         <Routes>
           <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/mahasiswa/login" element={<LoginMahasiswa />} />
           <Route path="/dosen/login" element={<LoginDosen />} />
           <Route path="/staf/login" element={<LoginStaf />} />
