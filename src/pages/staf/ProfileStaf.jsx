@@ -14,15 +14,15 @@ const ProfileStaf = () => {
           <div className="grid my-4 grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-2">
               <Label htmlFor="name">Nama Staf</Label>
-              <Input className="w-full md:w-1/2" id="name" value="Kanigara, S.H." type="text" disabled/>
+              <Input className="w-full" id="name" value="Kanigara, S.H." type="text" disabled/>
             </div>
             <div className="space-y-2">
               <Label htmlFor="nip">NIP</Label>
-              <Input className="w-full md:w-1/2" id="nip" value="198510062005101005" type="text" disabled/>
+              <Input className="w-full" id="nip" value="198510062005101005" type="text" disabled/>
             </div>
             <div className="space-y-2">
               <Label htmlFor="bidang">Bidang</Label>
-              <Input className="w-full md:w-1/2" id="bidang" value="Akademik Hukum/Ilmu Hukum" type="text" disabled/>
+              <Input className="w-full" id="bidang" value="Akademik Hukum/Ilmu Hukum" type="text" disabled/>
             </div>
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>
