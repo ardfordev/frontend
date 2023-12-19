@@ -45,6 +45,10 @@ const HeaderStaf = () => {
                 "flex px-4 py-1 rounded-lg text-sm",
                 location.pathname === "/staf/kemahasiswaan" ? "bg-green-500" : ""
               )} to="/staf/kemahasiswaan">Kemahasiswaan</NavLink>
+            <NavLink className={cn(
+                "flex px-4 py-1 rounded-lg text-sm",
+                location.pathname === "/staf/mata-kuliah" ? "bg-green-500" : ""
+              )} to="/staf/mata-kuliah">Mata Kuliah</NavLink>
           </SheetContent>
         </Sheet>
       </div>

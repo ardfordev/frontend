@@ -6,8 +6,11 @@ import InformasiPerkuliahanMahasiswa from "./pages/mahasiswa/InformasiPerkuliaha
 import RegistrasiKRSMahasiswa from "./pages/mahasiswa/RegistrasiKRSMahasiswa"
 import ProfileDosen from "./pages/dosen/ProfileDosen"
 import BimbinganMahasiswa from "./pages/dosen/BimbinganMahasiswa"
+import DetailKRSMahasiswa from "./pages/dosen/DetailKRSMahasiswa"
 import ProfileStaf from "./pages/staf/ProfileStaf"
 import Kemahasiswaan from "./pages/staf/Kemahasiswaan"
+import MataKuliah from "./pages/staf/MataKuliah"
+import AddMataKuliah from "./pages/staf/AddMataKuliah"
 import LoginMahasiswa from "./pages/auth/LoginMahasiswa"
 import LoginDosen from "./pages/auth/LoginDosen"
 import LoginStaf from "./pages/auth/LoginStaf"
@@ -29,8 +32,11 @@ const App = () => {
           <Route path="/mahasiswa/registrasi-krs" element={<RegistrasiKRSMahasiswa />} />
           <Route path="/dosen/profile" element={<ProfileDosen />} />
           <Route path="/dosen/bimbingan-mahasiswa" element={<BimbinganMahasiswa />} />
+          <Route path="/dosen/bimbingan-mahasiswa/detailkrs" element={<DetailKRSMahasiswa />} />
           <Route path="/staf/profile" element={<ProfileStaf />} />
           <Route path="/staf/kemahasiswaan" element={<Kemahasiswaan />} />
+          <Route path="/staf/mata-kuliah" element={<MataKuliah />} />
+          <Route path="/staf/mata-kuliah/tambah" element={<AddMataKuliah />} />
         </Routes>
       </BrowserRouter>
     </>

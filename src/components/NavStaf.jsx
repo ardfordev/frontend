@@ -1,5 +1,5 @@
 import { NavLink, useLocation } from "react-router-dom"
-import { UserSquare, Users } from "lucide-react"
+import { UserSquare, Users, LibraryBig } from "lucide-react"
 import logo from "@/assets/logo.png"
 import { cn } from "@/lib/utils"
 
@@ -28,6 +28,10 @@ const NavStaf = () => {
               "flex items-center text-sm text-gray-400 px-4 py-2 rounded-lg",
               location.pathname === "/staf/kemahasiswaan" ? "bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 text-white font-semibold" : ""
               )} to="/staf/kemahasiswaan"><Users size={20} className="mr-2" />Kemahasiswaan</NavLink>
+          <NavLink className={cn(
+              "flex items-center text-sm text-gray-400 px-4 py-2 rounded-lg",
+              location.pathname === "/staf/mata-kuliah" ? "bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 text-white font-semibold" : ""
+              )} to="/staf/mata-kuliah"><LibraryBig size={20} className="mr-2" />Mata Kuliah</NavLink>
         </nav>
       </div>
     </div>

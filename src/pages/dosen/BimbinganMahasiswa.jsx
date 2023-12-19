@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import Select from 'react-select'
 import LayoutDosen from './LayoutDosen'
 import { Button } from "@/components/ui/button"
@@ -60,14 +61,14 @@ const BimbinganMahasiswa = () => {
                         <MoreVertical className='mr-2 h-4 w-4' />
                       </PopoverTrigger>
                       <PopoverContent className="w-40">
-                        <button className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500">
+                        <NavLink className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500 text-sm font-medium">
                           <FileDown className='mr-2 w-4 h-4'/>
-                          <span className="text-sm font-medium">Cetak KRS</span>
-                        </button>
-                        <button className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500">
+                          Cetak KRS
+                        </NavLink>
+                        <NavLink to="/dosen/bimbingan-mahasiswa/detailkrs" className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500 text-sm font-medium">
                           <FileSearch2 className='mr-2 w-4 h-4' />
-                          <span className="text-sm font-medium">Detail KRS</span>
-                        </button>
+                          Detail KRS
+                        </NavLink>
                       </PopoverContent>
                     </Popover>
                   </TableCell>
@@ -88,14 +89,14 @@ const BimbinganMahasiswa = () => {
                         <MoreVertical className='mr-2 h-4 w-4' />
                       </PopoverTrigger>
                       <PopoverContent className="w-40">
-                        <button className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500">
+                        <NavLink className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500 text-sm font-medium">
                           <FileDown className='mr-2 w-4 h-4'/>
-                          <span className="text-sm font-medium">Cetak KRS</span>
-                        </button>
-                        <button className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500">
+                          Cetak KRS
+                        </NavLink>
+                        <NavLink to="/dosen/bimbingan-mahasiswa/detailkrs" className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500 text-sm font-medium">
                           <FileSearch2 className='mr-2 w-4 h-4' />
-                          <span className="text-sm font-medium">Detail KRS</span>
-                        </button>
+                          Detail KRS
+                        </NavLink>
                       </PopoverContent>
                     </Popover>
                   </TableCell>
@@ -116,14 +117,14 @@ const BimbinganMahasiswa = () => {
                         <MoreVertical className='mr-2 h-4 w-4' />
                       </PopoverTrigger>
                       <PopoverContent className="w-40">
-                        <button className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500">
+                        <NavLink className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500 text-sm font-medium">
                           <FileDown className='mr-2 w-4 h-4'/>
-                          <span className="text-sm font-medium">Cetak KRS</span>
-                        </button>
-                        <button className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500">
+                          Cetak KRS
+                        </NavLink>
+                        <NavLink to="/dosen/bimbingan-mahasiswa/detailkrs" className="w-full flex items-center space-x-2 hover:bg-gray-200 active:bg-gray-300 py-2 px-2 rounded-lg text-gray-500 text-sm font-medium">
                           <FileSearch2 className='mr-2 w-4 h-4' />
-                          <span className="text-sm font-medium">Detail KRS</span>
-                        </button>
+                          Detail KRS
+                        </NavLink>
                       </PopoverContent>
                     </Popover>
                   </TableCell>
