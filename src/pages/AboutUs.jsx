@@ -4,6 +4,7 @@ import logo from "@/assets/logo.png"
 import { Button } from "@/components/ui/button"
 import {
   Avatar,
+  AvatarImage,
   AvatarFallback,
 } from "@/components/ui/avatar"
 import {
@@ -17,12 +18,12 @@ import {
 const AboutUs = () => {
 
   const ASPTeam = [
-    {name : "Evita Handayani", fallback : "EV", role : "Hustler"},
-    {name : "Fernanda Sugiwa D.", fallback : "FS", role : "Scrum & Hacker"},
-    {name : "Nanda Alif Bakri", fallback : "NA", role : "Hipster"},
-    {name : "Syarif Hidayatulloh", fallback : "SH", role : "Hipster"},
-    {name : "Ardi Supriyadi", fallback : "AS", role : "Hacker"},
-    {name : "Dedan Adam", fallback : "DA",role : "Hacker"},
+    {avatar: "/public/avatar/avatar1.jpg",name : "Evita Handayani", fallback : "EV", role : "Hustler", contact: "mailto:Evitahandayani056@gmail.com"},
+    {avatar: "/public/avatar/avatar2.jpg", name : "Fernanda Sugiwa D.", fallback : "FS", role : "Scrum & Hacker Back End", contact: "mailto:Fsd55788@gmail.com"},
+    {avatar: "/public/avatar/avatar3.jpg", name : "Nanda Alif Bakri", fallback : "NA", role : "Hipster", contact: "mailto:nandaalif.na@gmail.com"},
+    {avatar: "/public/avatar/avatar4.jpg", name : "Syarif Hidayatulloh", fallback : "SH", role : "Hipster", contact: "mailto:hidayatullohsyarif119@gmail.com"},
+    {avatar: "/public/avatar/avatar5.jpg", name : "Ardi Supriyadi", fallback : "AS", role : "Hacker Front End", contact: "mailto:ardisuprieadi@gmail.com"},
+    {avatar: "/public/avatar/avatar6.jpg", name : "Dedan Adam", fallback : "DA",role : "Hacker Back End", contact: "mailto:dedanadam3@gmail.com"},
   ];
 
   return (
@@ -74,14 +75,15 @@ const AboutUs = () => {
               <div className="rounded-lg shadow-lg" key={index}>
                 <div className="h-24 bg-green-500 rounded-t-lg" />
                   <Avatar className="rounded-full -mt-12 border-4 border-white mx-auto h-24 w-24">
+                    <AvatarImage src={member.avatar} alt={member.name} />
                     <AvatarFallback>{member.fallback}</AvatarFallback>
                   </Avatar>
                 <div className="text-center mt-2">
                   <h2 className="text-lg font-semibold">{member.name}</h2>
                   <p className="text-gray-500">{member.role}</p>
                 </div>
-                <div className="px-6 py-4">
-                  <Button className="w-full bg-green-500 text-white rounded-lg">Kontak</Button>
+                <div className="flex px-6 py-4">
+                  <NavLink to={member.contact} className="w-full py-1 bg-green-500 text-white rounded-lg">Kontak</NavLink>
                 </div>
               </div>
             ))
