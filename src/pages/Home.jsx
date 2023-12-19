@@ -51,13 +51,13 @@ const Home = () => {
         </div>
       </header>
 
-      <main className='container bg-gray-50 h-screen mx-auto px-4 py-20 text-center'>
+      <main className='container bg-gray-50 min-h-screen mx-auto px-4 py-20 text-center'>
         <h2 className='md:text-6xl text-4xl font-extrabold tracking-tighter text-green-500'>ASP</h2>
         <h2 className='md:text-6xl text-4xl font-extrabold tracking-tighter text-gray-900'>Academic</h2>
         <h2 className='md:text-6xl text-4xl font-extrabold tracking-tighter text-gray-900'>Study</h2>
         <h2 className='md:text-6xl text-4xl font-extrabold tracking-tighter text-gray-900'>Planner</h2>
         <p className='max-w-md mx-auto text-gray-500 text-base mt-10'>Academic Study Planner adalah sebuah website untuk management Kartu Rencana Studi mahasiswa Fakultas Hukum Universitas Palangka Raya</p>
-        <div className="mt-12 grid md:grid-cols-3 grid-cols-1 gap-8">
+        <div className="mt-12 grid md:grid-cols-3 grid-cols-1 gap-8 mb-10">
             <div className="flex flex-col items-center space-y-2 bg-gray-100 p-4 rounded-lg">
               <div className="p-2 bg-green-500 rounded-lg">
                 <FileText className="text-white h-6 w-6 mb-2 opacity-75" />
