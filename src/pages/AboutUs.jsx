@@ -18,12 +18,12 @@ import {
 const AboutUs = () => {
 
   const ASPTeam = [
-    {avatar: "/public/avatar/avatar1.jpg",name : "Evita Handayani", fallback : "EV", role : "Hustler", contact: "mailto:Evitahandayani056@gmail.com"},
-    {avatar: "/public/avatar/avatar2.jpg", name : "Fernanda Sugiwa D.", fallback : "FS", role : "Scrum & Hacker Back End", contact: "mailto:Fsd55788@gmail.com"},
-    {avatar: "/public/avatar/avatar3.jpg", name : "Nanda Alif Bakri", fallback : "NA", role : "Hipster", contact: "mailto:nandaalif.na@gmail.com"},
-    {avatar: "/public/avatar/avatar4.jpg", name : "Syarif Hidayatulloh", fallback : "SH", role : "Hipster", contact: "mailto:hidayatullohsyarif119@gmail.com"},
-    {avatar: "/public/avatar/avatar5.jpg", name : "Ardi Supriyadi", fallback : "AS", role : "Hacker Front End", contact: "mailto:ardisuprieadi@gmail.com"},
-    {avatar: "/public/avatar/avatar6.jpg", name : "Dedan Adam", fallback : "DA",role : "Hacker Back End", contact: "mailto:dedanadam3@gmail.com"},
+    {avatar: "/avatar/avatar1.jpg",name : "Evita Handayani", fallback : "EV", role : "Hustler", contact: "mailto:Evitahandayani056@gmail.com"},
+    {avatar: "/avatar/avatar2.jpg", name : "Fernanda Sugiwa D.", fallback : "FS", role : "Scrum & Hacker Back End", contact: "mailto:Fsd55788@gmail.com"},
+    {avatar: "/avatar/avatar3.jpg", name : "Nanda Alif Bakri", fallback : "NA", role : "Hipster", contact: "mailto:nandaalif.na@gmail.com"},
+    {avatar: "/avatar/avatar4.jpg", name : "Syarif Hidayatulloh", fallback : "SH", role : "Hipster", contact: "mailto:hidayatullohsyarif119@gmail.com"},
+    {avatar: "/avatar/avatar5.jpg", name : "Ardi Supriyadi", fallback : "AS", role : "Hacker Front End", contact: "mailto:ardisuprieadi@gmail.com"},
+    {avatar: "/avatar/avatar6.jpg", name : "Dedan Adam", fallback : "DA",role : "Hacker Back End", contact: "mailto:dedanadam3@gmail.com"},
   ];
 
   return (
